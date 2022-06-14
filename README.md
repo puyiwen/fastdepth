@@ -25,7 +25,8 @@ The code implements both the MobileNet encoder and the MobileNetv2 encoder, as w
   sudo apt-get install -y libhdf5-serial-dev hdf5-tools
   pip3 install h5py matplotlib imageio scikit-image opencv-python
   ```
-- Download the preprocessed [NYU Depth V2](https://drive.google.com/file/d/1hXvznCAa26bNBPGZJH1DI2siVxmQlm0W/view?usp=sharing) dataset in HDF5 format and place it under a `data` folder outside the repo directory. The NYU dataset requires 4.4G of storage space.
+- Download the preprocessed [NYU Depth V2](https://tinyurl.com/nyu-data-zip). 
+ You don't need to extract the dataset since the code loads the entire zip file into memory when training.The NYU dataset requires 4.4G of storage space.
 
 ### Pretrained MobileNet or MobileNetV2 ###
 
