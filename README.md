@@ -55,6 +55,8 @@ model = models.MobileNetV2SkipAdd(output_size=(224,224))
 
 This step requires a valid PyTorch installation and a saved copy of the NYU Depth v2 dataset. It is meant to be performed on a host machine with a CUDA GPU, not on an embedded platform. Deployment on an embedded device is discussed in the [next section](#deployment).
 
+you may need to download NYU test data in [here](https://s3-eu-west-1.amazonaws.com/densedepth/nyu_test.zip)，and you need to unzip the test set.
+
 To evaluate a model, navigate to the repo directory and run:
 
 ```console
