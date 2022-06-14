@@ -65,7 +65,7 @@ python main.py --evaluate --test_path TESTDATA_PATH --weights_path MODEL_PRETRAI
 
 The evaluation code will report model accuracy in terms of the delta1 metric as well as RMSE in millimeters.
 
-Note: This evaluation code was sourced and modified from [here](https://github.com/fangchangma/sparse-to-dense.pytorch).
+Note: This evaluation code was sourced and modified from [here](https://github.com/mic-rud/GuidedDecoding).
 
 
 ## Citation
