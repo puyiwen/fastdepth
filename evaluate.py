@@ -207,7 +207,7 @@ class Evaluater():
         img = image[0].permute(1, 2, 0).cpu()
         gt = gt[0,0].permute(0, 1).cpu()
         prediction = prediction[0,0].permute(0, 1).detach().cpu()
-        error_map = gt - prediction
+        error_map = abs(gt - prediction)
         vmax_error = self.maxDepth / 10.0
         vmin_error = 0.0
         cmap = 'viridis'
